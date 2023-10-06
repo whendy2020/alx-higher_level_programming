@@ -11,7 +11,7 @@ if __name__ == "__main__":
     if total > 1:
         print("{} arguments:".format(total))
     if total == 0:
-        print("{} argument.".format(total))
+        print("{} arguments.".format(total))
     count = 1
     arguments = sys.argv[1:]
     for arg in arguments:
