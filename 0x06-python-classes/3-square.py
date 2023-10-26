@@ -11,14 +11,6 @@ class Square:
         if int(size) < 0:
             raise ValueError("size must be >= 0")
 
-    def get_size(self):
-        """access the private instance variable to use outside"""
-        return self.__size
-
-    def set_size(self, my_square_1):
-        """make size to be publicly accessible"""
-        self.__size = my_square_1
-
     def area(self):
         """a public instance class to calc the area of a circle"""
         return self.__size ** 2
