@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""find the area of a square"""
+
+
 class Square:
     """ private instance attribute size must be int"""
     def __init__(self, size=0):
