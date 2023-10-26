@@ -15,9 +15,9 @@ class Square:
         """access the private instance variable to use outside"""
         return self.__size
 
-    def set_size(self, new_size):
+    def set_size(self, my_square_1):
         """make size to be publicly accessible"""
-        self.__size = new_size
+        self.__size = my_square_1
 
     def area(self):
         """a public instance class to calc the area of a circle"""
